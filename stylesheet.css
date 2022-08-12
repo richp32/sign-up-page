@@ -1,0 +1,13 @@
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+    width: 70%;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.185);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./assets/background.png);
+  }
