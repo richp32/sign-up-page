@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    margin: auto;
     flex: 0 0 auto;
     width: 70%;
     height: 100%;
@@ -12,3 +13,16 @@
     background-size: cover;
     background-image: url(./assets/background.png);
   }
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  justify-content: center;
+}
+
+#sign-up-form {
+  display: flex;
+  flex-direction: column;
+}
